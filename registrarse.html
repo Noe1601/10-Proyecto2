@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="favicon/x-icon" href="img/supertux.png">
+    <link rel="stylesheet" href="estilos2.css">
+    <link rel="stylesheet" href="responsive.css">
+    <script src="usuarios.js"></script>
+    <title>Registrarse</title>
+</head>
+<body>
+    <header id="header">
+        <div class="wrap">
+            <div id="logo">
+                <span class="gear">S</span>
+                <h3>BLOG</h3>
+            </div>
+            <nav id="menu">
+                <ul>
+                    <li><a href="index.html">INICIO</a></li>
+                    <li><a href="registrarse.html">REGISTRAR</a></li>
+                   <li><a href="#">BLOG</a></li>
+                    <li><a href="informacion.html">INFORMACION</a></li>
+                    <li><a href="#">CONTACTO</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+
+    <div id="login" class="aside-box">
+        <form action="">
+            <label id="user" class="icon">U</label>
+            <input type="email" id="Email" placeholder="Inserte su correo electronico">
+            <label id="user" class="icon">U</label>
+            <input type="text" id="Nombre" placeholder="Inserte su nombre">
+            <label id="password" class="icon">w</label>
+            <input type="password">
+            <input type="submit" onclick=" return Enviar()" value="Enviar">
+            <input type="reset" onclick=" return Limpiar()" value="Borrar todo">
+            <input type="reset" onclick="Eliminar()" value="Eliminar">
+
+            <a href="#">Registrate aqui</a>
+            <a href="#">Haz olvidado la contrasena?</a>
+        </form>
+    </div>
+
+
+    <div id="tabla" class="tablas">
+       
+    <table id="datos" cellpaging='1' cellspaging='1' border='1'>
+        <tr>
+            <td><p>Correo Electronico</p></td>
+            <td><p>Nombre</p></td>
+          </tr>
+        </table>
+
+        <tbody aria-colspan="1">
+            <td class="info" id="nombre"></td>
+            <td class="info"  id="email"></td>
+            </tbody>
+        </div>
+
+
+    </table>
+
+
+
+
+
+    <div class="clearfix">
+        <footer id="footer">
+            <div class="wrap">
+                <div id="menu_footer">
+                    <h5>MENU</h5>
+                    <ul>
+                        <li><a href="#">INICIO</a></li>
+                        <li><a href="#">BLOG</a></li>
+                        <li><a href="#">INFORMACION</a></li>
+                        <li><a href="#">CONTACTO</a></li>
+                    </ul>
+                </div>
+
+                <div id="location">
+                    <h5>DONDE ESTAMOS?</h5>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3782.4443628823965!2d-69.93124608600739!3d18.553994787389552!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eaf8ecad4ac62ff%3A0x5e9625aad5fb97f!2s(Residencial%20Ciudad%20Bonita)!5e0!3m2!1ses-419!2sdo!4v1592149581397!5m2!1ses-419!2sdo"
+                        width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""
+                        aria-hidden="false" tabindex="0"></iframe>
+
+                </div>
+            </div>
+           </footer>
+</body>
+</html>
